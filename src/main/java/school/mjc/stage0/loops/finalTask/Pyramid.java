@@ -10,7 +10,7 @@ public class Pyramid {
             for (int j = 1; j <= cathetusLength * 2 - 1; j++) {
                 if (j == cathetusLength) {
                     System.out.print(1);
-                } else if (j <= cathetusLength - i || j >= cathetusLength + i) {
+                } else if (j <= cathetusLength - i) {
                     System.out.print(" ");
                 } else if (j > cathetusLength - i && j < cathetusLength) {
                     if(j > cathetusLength - maxNumber && j < cathetusLength) {
